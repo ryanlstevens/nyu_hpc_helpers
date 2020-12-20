@@ -10,7 +10,9 @@ To run Tensorflow in a Jupyter notebook, we have to accomplish the following ste
 
 1. Setup Conda environment inside singularity container
 2. Install python packages 
-3. Create Jupyter slurm run script 
+3. Create Jupyter slurm run script
+
+I will refer to a jupyter notebook file and a slurm batch file in this section, you can find those the __tensorflow_jupyter/__ folder. 
 
 ### Setup Conda Environment 
 
@@ -88,4 +90,6 @@ Once you have submitted this, you will need to inspect the output file to follow
 ```bash
 cat run-jupyter.out
 ``` 
+
+Once you have connected to the jupyter instance, you can run the two commands show in the __tensorflow_jupyter/jupyter_test_script.ipynb__ file. 
 
