@@ -16,7 +16,7 @@ I will refer to a jupyter notebook file and a slurm batch file in this section, 
 
 ### Setup Conda Environment 
 
-We copy an (overlay) container image with a set amount of RAM and Storage space (.ext3), this will be the environment tensorflow will run in. Overlays are nice because we can persist changes to our (.ext3) file, it gives us a kind of write access to these containers. 
+We copy an (overlay) container image with a set amount of RAM and Disk space (.ext3), this will be the environment tensorflow will run in. Overlays are nice because we can persist changes to our (.ext3) file, it gives us a kind of write access to these containers. 
 
 We will then setup the conda environment inside the container, and finally a wrapper script we run when we reopen the container to point our environmental path to the conda environment.
 
