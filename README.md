@@ -57,7 +57,10 @@ source /ext3/env.sh
 pip install jupyter jupyterhub pandas matplotlib scipy 
 pip install tensorflow==2.3.0
 
-# Exit container and rename it 
+# Exit container 
+exit 
+
+# Rename container
 mv overlay-5GB-200K.ext3 tensorflow.2.3.0.ext3
 ``` 
 
