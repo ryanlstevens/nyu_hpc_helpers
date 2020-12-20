@@ -46,7 +46,7 @@ export PATH=/ext3/miniconda3/bin:$PATH''' > /ext3/env.sh
 
 ### Install Python packages 
 
-We will now relaunch the container and install our python packages. Note, one gotcha I ran into was I installed an incompatible version of Tensorflow. At the time of writing this script, CUDA 10.1 was the version I was using. This required me to install Tensorflow 2.3.0. To check which version of tensorflow is compatible with your cuda version, click (here)[https://www.tensorflow.org/install/source#gpu]. As a final cleanup step, we rename our overlay container to __tensorflow.2.3.0.ext3__.
+We will now relaunch the container and install our python packages. Note, one gotcha I ran into was I installed an incompatible version of Tensorflow. At the time of writing this script, CUDA 10.1 was the version I was using. This required me to install Tensorflow 2.3.0. To check which version of tensorflow is compatible with your cuda version, [click here](https://www.tensorflow.org/install/source#gpu). As a final cleanup step, we rename our overlay container to __tensorflow.2.3.0.ext3__.
 
 ```bash 
 # Relaunch container 
